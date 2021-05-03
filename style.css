@@ -1,0 +1,583 @@
+html {
+    font-size: 16px;
+}
+
+body{
+    margin: auto;
+    padding: 0;
+    width: 1300px;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.start{
+    width: 100%;
+    background-color:  black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.start-gauche{
+    margin-left: 40px;
+}
+
+
+
+.start-droite{
+    display: flex;
+    margin-right: 40px;
+}
+
+
+
+.icones {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-color: white;
+}
+
+
+
+/* Header */
+
+ header a{
+    text-decoration: none;
+    color:black;
+}
+header ul {
+    padding-left: 0;
+}
+
+header{
+    background-color: rgba(128, 128, 128, 0.3);
+    display: flex; 
+    width: 100%;
+}
+
+.logoheader{
+    text-align: center;
+    width: 180px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+#logoentreprise{
+    width: 150px;
+    height: 150px;
+}
+
+
+/* ---MENU--- */ 
+.menu{
+    display: flex;
+    align-items: center;
+}
+nav{
+    top: 100px;
+    left: 250px;
+    display: flex; 
+    justify-content: space-around;
+}
+
+
+.menu li{
+    display: inline-block;
+    position: relative;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px 10px 10px 10px;
+    font-size: 1.5rem;
+}
+
+.contenu {
+    background-color: rgba(128, 128, 128, 0.3);
+    width: 100%;
+}
+.contenu1 {
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.contenu2 {
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+}
+
+.menufooter {
+    background-color: rgb(49, 49, 49);
+}
+
+.menufooter nav {
+    display: flex;   
+}
+
+.menufooter a {
+    text-decoration: none;
+    color: #b1B1B1;
+}
+.menufooter li{
+    display: inline-block;
+    position: relative;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.infofooter {
+    background-color: #3F3F3F;
+    height: 80px;
+    text-align: center;
+}
+
+.infofooter p {
+    margin: 0;
+    padding-top: 20px;
+    color: #B1B1B1;
+
+}
+
+
+/* Slider */
+
+.slider {
+    width: 600px;
+    overflow: hidden;
+    margin: auto;
+}
+
+
+.slides {
+    width: calc(600px * 3);
+    animation: glisse 20s infinite;
+}
+
+.slide {
+    float: left;
+    height: 450px;
+}
+
+@keyframes glisse {
+    0% {
+        transform: translateX(0);
+    }
+    15% {
+        transform: translateX(0);
+    }
+    33% {
+        transform: translateX(-600px);
+    }
+    48% {
+        transform: translateX(-600px);
+    }
+    66% {
+        transform: translateX(-1200px);
+    }
+    81% {
+        transform: translateX(-1200px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+hr {
+    margin: 0;
+}
+
+
+/* Menuiserie Extérieure */
+
+.fenetre {
+    display: flex;
+    margin-bottom: 25px;
+    padding-top: 25px;
+}
+
+.fenetre1 {
+    width: 50%;
+    margin-top: 25px;
+    text-align: center;
+    padding-top: 60px;
+
+
+}
+
+.fenetre1 img {
+    width: 85%;
+    height: auto;
+}
+
+.fenetre2 {
+    width: 50%;
+    margin-top: 25px;
+    padding-top: 60px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.fenetre2 h2 {
+    margin: 0;
+}
+
+.porteGarage {
+    margin-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+}
+
+.porteGarage2 {
+    width: 50%;
+    margin-top: 25px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.porteGarage2 img {
+    width: 70%;
+    height: auto;
+}
+
+.porteGarage1 {
+    width: 50%;
+    margin-top: 25px;
+    margin-left: 50px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.porteGarage1 h2 {
+    margin: 0;
+}
+
+/* Menuiserie Interieure */ 
+
+.cuisine {
+    display: flex;
+    margin-bottom: 25px;
+    padding-top: 25px;
+}
+
+.cuisine1 {
+    width: 50%;
+    margin-top: 25px;
+    text-align: center;
+    padding-top: 45px;
+}
+
+.cuisine1 img {
+    width: 85%;
+    height: auto;
+
+}
+
+.cuisine2 {
+    width: 50%;
+    margin-top: 25px;
+    padding-top: 70px;
+    padding-right: 50px;
+}
+
+.cuisine2 h2 {
+    margin: 0;
+}
+
+.parquetFlottant {
+    margin-top: 50px;
+    display: flex;
+}
+
+.parquetFlottant2 {
+    width: 50%;
+    margin-top: 25px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.parquetFlottant2 img {
+    width: 70%;
+    height: auto;
+}
+
+.parquetFlottant1 {
+    width: 50%;
+    margin-top: 25px;
+    margin-left: 50px;
+    padding-top: 150px;
+    padding-left: 50px;
+}
+
+.parquetFlottant1 h2 {
+    margin: 0;
+}
+
+.dressingSurMesure {
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 75px;
+}
+
+.dressingSurMesure1 {
+    width: 50%;
+    margin-top: 25px;
+    text-align: center;
+    padding-top: 45px;
+}
+
+.dressingSurMesure1 img {
+    width: 85%;
+    height: auto;
+
+}
+
+.dressingSurMesure2 {
+    width: 50%;
+    margin-top: 25px;
+    padding-top: 100px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.dressingSurMesure2 h2 {
+    margin: 0;
+}
+
+/* Plâtrerie et Enduit */ 
+
+.platrerie {
+    display: flex;
+    margin-bottom: 25px;
+    padding-top: 25px;
+}
+
+.platrerie1 {
+    width: 50%;
+    margin-top: 25px;
+    text-align: center;
+    padding-top: 45px;
+}
+
+.platrerie1 img {
+    width: 70%;
+    height: auto;
+
+}
+
+.platrerie2 {
+    width: 50%;
+    margin-top: 25px;
+    padding-top: 200px;
+    padding-right: 50px;
+}
+
+.platrerie2 h2 {
+    margin: 0;
+}
+
+.enduit {
+    margin-top: 50px;
+    padding-bottom: 70px;
+    display: flex;
+}
+
+.enduit2 {
+    width: 50%;
+    margin-top: 25px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.enduit2 img {
+    width: 70%;
+    height: auto;
+}
+
+.enduit1 {
+    width: 50%;
+    margin-top: 25px;
+    margin-left: 50px;
+    padding-top: 200px;
+    padding-left: 50px;
+}
+
+.enduit1 h2 {
+    margin: 0;
+}
+
+
+/* Responsive Design */ 
+
+.contenu img {
+ 
+}
+
+@media screen and (max-width: 1500px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    html {
+        font-size: 14px;
+    }
+
+    body {
+        width: 100%;
+    }
+
+}
+
+
+@media screen and (max-width: 1000px) {
+    body {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    header {
+        display: block;
+    }
+
+    .logoheader {
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 5%;
+    }
+
+    ul {
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .menu {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .menu {
+        max-width: 200px;
+    }
+
+    .fenetre, .porteGarage, .cuisine, .parquetFlottant, .dressingSurMesure, .platrerie, .enduit {
+        flex-direction: column;
+    }
+    
+    .fenetre1,.fenetre2, .porteGarage1, .porteGarage2, .cuisine1, .cuisine2, .parquetFlottant1, .parquetFlottant2, .dressingSurMesure1, .dressingSurMesure2, .platrerie1, .platrerie2, .enduit1, .enduit2 {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+        padding-right: 0;
+        padding-left: 0;
+        padding-top: 5px;
+        text-align: center;
+    }
+
+    .platrerie2 p {
+        margin-bottom:  0;
+    }
+
+    .enduit1 p {
+        margin-top: 0;
+    }
+
+    .fenetre1{
+        order: 2;
+    }
+
+    .fenetre2 {
+        order: 1;
+    }
+
+    .cuisine1{
+        order: 2;
+    }
+
+    .cuisine2 {
+        order: 1;
+    }
+
+    .dressingSurMesure1{
+        order: 2;
+    }
+
+    .dressingSurMesure2 {
+        order: 1;
+    }
+
+    .platrerie1{
+        order: 2;
+    }
+
+    .platrerie2 {
+        order: 1;
+    }
+
+
+
+}
+
+@media screen and (max-width: 600px) {
+    .start {
+        display: block;
+    }
+
+    .start p {
+        display: inline-block;
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .start-gauche, .start-droite {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .icones {
+        display: none;
+    }
+    
+
+    .contenu1 {
+        display: none;
+    }
+    .contenu2 {
+        margin-top: 0;
+    }
+    h2 {
+        margin-top: 0;
+        padding-top: 20px;
+    }
+}
+
+
+
+
