@@ -48,6 +48,11 @@ body{
     text-decoration: none;
     color:black;
 }
+
+header a:hover{
+    color:gray;
+}
+
 header ul {
     padding-left: 0;
 }
@@ -69,6 +74,11 @@ header{
 #logoentreprise{
     width: 150px;
     height: 150px;
+}
+
+#logoentreprise:hover {
+    width: 200px;
+    height: 200px;
 }
 
 
